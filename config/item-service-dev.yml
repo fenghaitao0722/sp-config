@@ -1,0 +1,13 @@
+server:
+  port: 8001
+  
+spring:
+  application:
+    name: item-service
+
+#Zone由云服务商提供如阿里与亚马逊云等,如果没有就写defaultZone    
+eureka:
+  client:
+    service-url: 
+      defaultZone: http://eureka1:2001/eureka,http://eureka2:2002/eureka   
+      
