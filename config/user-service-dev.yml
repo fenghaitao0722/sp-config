@@ -5,10 +5,12 @@ sp:
 spring:
   application:
     name: user-service
-    
+  cloud:
+    config:
+      override-none: true  
 server:
   port: 8101
-#Zone由云服务商提供如阿里与亚马逊云等,如果没有就写defaultZone    
+#Zone鐢变簯鏈嶅姟鍟嗘彁渚涘闃块噷涓庝簹椹�婁簯绛�,濡傛灉娌℃湁灏卞啓defaultZone    
 eureka:
   client:
     service-url: 
