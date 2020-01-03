@@ -6,7 +6,7 @@ spring:
     name: item-service
   cloud:
     config:
-      override-none: true
+      override-none: true 
 #Zone鐢变簯鏈嶅姟鍟嗘彁渚涘闃块噷涓庝簹椹�婁簯绛�,濡傛灉娌℃湁灏卞啓defaultZone    
 eureka:
   client:
